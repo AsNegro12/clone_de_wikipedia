@@ -1,0 +1,15 @@
+:root {
+    --blue-color: #36c;
+    --gray-boder-color: #a2a9b1;
+    --gray-text-color: #54595d;
+    --gray-background-color: #f8f9fa;
+    --font-family-text: system-ui, -apple-system, sans-serif;
+    --font-family-title: 'Linux Libretine', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-text);
+}
