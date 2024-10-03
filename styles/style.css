@@ -23,6 +23,13 @@ body {
     font-size: 1.3rem;
 }
 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 /* Init header */
 header {
     color: black;
@@ -48,3 +55,5 @@ header h2 {
 /* End header */
 
 /* Init Main */
+
+/* End Main */
