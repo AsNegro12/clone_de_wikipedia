@@ -151,6 +151,53 @@ main .navigation-container .navigation-logo img {
     object-fit: contain; /* se utiliza para especificar cómo el contenido de un elemento reemplazado (como imágenes, videos u otros elementos multimedia) se ajusta a su contenedor. Es particularmente útil cuando el tamaño del contenedor no coincide con el tamaño del contenido, permitiendo controlar cómo se escala o recorta el contenido para que encaje bien.*/
 }
 /* -End navigation */
+/* ---- */
 /* -Init Section search*/
-/* -End Section search*/
+/* --End Search Container */
+main .search {
+    max-width: 500px;
+    width: 100%;
+    margin: 0.5em auto 0;
+}
+
+main .search .search-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+main .search-form .search-input-container {
+    border: 1px solid var(--gray-boder-color);
+    border-bottom: 2px 0 0 2px;
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+}
+
+main .search-form .search-input-container input {
+    padding: 0.8em;
+    border: none;
+    outline: none;
+    flex: 1 1;
+}
+
+main .search-form .search-input-container p {
+    margin-right: 0.8em;
+}
+
+main .search-form button {
+    border: none;
+    background-color: var(--blue-color);
+    border: 0 2px 2px 0;
+    color: white;
+    padding: 0.8em 1.3em;
+    cursor: pointer;
+}
+/* --End Search Container */
+
+/* --Init Language */
+
+/* --End Language */
+
+/* -End Section search */
 /* End Main */
