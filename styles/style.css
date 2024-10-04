@@ -194,9 +194,27 @@ main .search-form button {
     cursor: pointer;
 }
 /* --End Search Container */
-
+/* ---- */
 /* --Init Language */
+main .search .language {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 2.6em 0;
+}
 
+main .search .language .language-selector {
+    background-color: var(--gray-background-color);
+    border: 1px solid var(--gray-boder-color);
+    border-radius: 2px;
+    display: inline-block;
+    padding: 0.6em 1em;
+    margin: 0 1.5em;
+    font-size: 1.2rem;
+}
+main .search .language hr {
+    flex: 1 1;
+}
 /* --End Language */
 
 /* -End Section search */
